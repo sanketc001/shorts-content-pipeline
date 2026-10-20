@@ -1,0 +1,47 @@
+# Not part of this repo
+The Genesis Order/
+
+# Secrets
+.env
+.env.*
+!.env.example
+backend/auth/*.json
+backend/auth/*.pickle
+backend/auth/tokens*
+
+# Tooling
+.claude/
+AGENTS.md
+CLAUDE.md
+.vscode/
+.idea/
+
+# Python / Node / build
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+*.log
+
+# Generated media and models
+backend/output/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.webm
+*.mov
+*.wav
+*.mp3
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+*.zip
