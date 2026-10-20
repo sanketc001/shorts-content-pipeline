@@ -45,3 +45,7 @@ backend/output/
 *.bin
 *.gguf
 *.zip
+
+# README showcase media
+!docs/
+!docs/**

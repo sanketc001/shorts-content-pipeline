@@ -4,6 +4,20 @@ A local studio for producing and publishing short-form social content: an LLM wr
 copy, a diffusion model makes the visuals, and one click publishes to YouTube, Instagram
 or LinkedIn.
 
+<!-- showcase -->
+![Content Studio: per-platform text generation for YouTube, Instagram and LinkedIn](docs/studio.png)
+
+**Text-to-image, then image-to-image.** A Z-Image Turbo render and a Flux.2 Klein edit of it
+(subject swapped, scene and lighting kept):
+
+![Text-to-image render and its image-to-image edit](docs/t2i_to_i2i.jpg)
+
+Consistent-character outfit edits from one source image:
+
+![Three outfit variations of the same generated character](docs/outfit_edits.jpg)
+
+*All images above were generated locally by this pipeline.*
+
 ## Why
 
 Posting the same idea across three platforms means three tones, three formats and three
