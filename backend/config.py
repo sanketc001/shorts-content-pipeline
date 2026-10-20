@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     comfyui_url: str = "http://127.0.0.1:8188"
 
     # Model paths
-    model_base_path: str = "C:/Users/micke/Desktop/AI/ComfyUI/models"
+    model_base_path: str = "./models"
     diffusion_model_t2i: str = "diffusion_models/z_image_turbo_bf16.safetensors"
     diffusion_model_i2i: str = "diffusion_models/flux-2-klein-9b-fp8.safetensors"
     vae_t2i: str = "vae/ae.safetensors"
